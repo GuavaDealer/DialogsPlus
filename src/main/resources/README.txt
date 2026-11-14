@@ -57,8 +57,8 @@ COMMANDS
 PERMISSIONS (COMMANDS)
 ----------------------
     dialogsplus.edit              Use the in-game editor (default: op)
-    (reload, export and import use the reload permission set in config.yml)
     dialogsplus.open.others       Open menus for other players
+    (reload, export and import use the reload permission set in config.yml)
 
 WARNING: treat dialogsplus.edit like console access. Anyone who has it can
 create RUN_COMMAND_AS_CONSOLE actions. Give it to trusted admins only.
