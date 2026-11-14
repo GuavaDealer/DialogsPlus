@@ -50,6 +50,7 @@ COMMANDS
                                    into menus/ and reloads
     /dialogsplus edit             Opens the in-game menu editor (players only)
     /dialogsplus edit <menu-id>   Opens the editor directly on one menu
+    /dialogs <menu-id> <player>   Opens a menu for another online player (works from console and command blocks)
     Plus any custom commands you've mapped in config.yml (see below)
 
 
@@ -57,6 +58,7 @@ PERMISSIONS (COMMANDS)
 ----------------------
     dialogsplus.edit              Use the in-game editor (default: op)
     (reload, export and import use the reload permission set in config.yml)
+    dialogsplus.open.others       Open menus for other players
 
 WARNING: treat dialogsplus.edit like console access. Anyone who has it can
 create RUN_COMMAND_AS_CONSOLE actions. Give it to trusted admins only.

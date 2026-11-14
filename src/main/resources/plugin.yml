@@ -10,3 +10,8 @@ commands:
     description: Opens the Dialogs+ menu
   dialogsplus:
     description: Dialogs+ admin command
+
+permissions:
+  dialogsplus.open.others:
+    description: Open a menu for another player with /dialogs <menu-id> <player>
+    default: op
