@@ -44,6 +44,7 @@ The menus folder starts empty. You can create your first menu in-game with `/dia
 | `/dialogsplus import <file>` | Copies a file from `plugins/DialogsPlus/imports/` into `menus/` and reloads |
 | `/dialogsplus edit` | Opens the in-game menu editor (players only) |
 | `/dialogsplus edit <menu-id>` | Opens the editor directly on one menu |
+| `/dialogs <menu-id> <player>` | Opens a menu for another online player (works from console and command blocks) |
 
 Plus any custom commands you've mapped in config.yml (see below).
 
@@ -52,6 +53,7 @@ Plus any custom commands you've mapped in config.yml (see below).
 | Permission | Description |
 |---|---|
 | `dialogsplus.edit` | Use the in-game editor (default: op) |
+| `dialogsplus.open.others` | Open menus for other players (default: op) |
 
 (reload, export and import use the reload permission set in config.yml)
 
