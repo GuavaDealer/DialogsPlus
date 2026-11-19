@@ -1,3 +1,5 @@
+Download link: https://modrinth.com/plugin/dialog
+
 # Dialogs+ (DialogsPlus)
 
 A configurable, vanilla-dialog-based menu plugin for Paper 1.21.11-Latest.
