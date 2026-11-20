@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'org.jetbrains.kotlin.jvm'
 }
 
 group = 'com.motol'
@@ -14,6 +15,7 @@ repositories {
 dependencies {
     compileOnly 'io.papermc.paper:paper-api:26.2.build.+'
     compileOnly 'me.clip:placeholderapi:2.11.6'
+    testImplementation 'org.jetbrains.kotlin:kotlin-test'
 }
 
 java {
